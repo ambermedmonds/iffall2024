@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Creepster';
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: left;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.firstline {
+    margin-top: 30px;
+}
+
+.lastline {
+    margin-bottom: 30px;
+}
+
+.dana {
+    color: #e974cc;
+}
+
+.peter {
+    color: #a7e974;
+}
+
+.mayor {
+    color: #e99b74;
+}
+
+.ray {
+    color: #e9e174;
+}
+
+.egon {
+    color: #e97e74;
+}
+
+.winston {
+    color: #ad92e8;
+}
+
+hr {
+    width: 45%;
+}
+
+.image{
+    width: 30%;
+}
+
+footer{
+    color: white;
+    font-family:sans-serif;
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
