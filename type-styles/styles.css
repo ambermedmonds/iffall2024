@@ -1,0 +1,66 @@
+html {
+    font-family: "Open Sans", system-ui;
+}
+
+body {
+    margin: 3%;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:black
+}
+
+h1 {
+    font-size: 30px;
+    margin: auto;
+    color:#ff385c;
+}
+
+p {
+    font-size: 24px;
+    margin: auto;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 20px;
+    color:#6A6A6A
+}
+
+.letterspacing1 {
+    letter-spacing: 0.3em;
+}
+
+.letterspacing2 {
+    letter-spacing: -0.06em;
+}
+
+.textdecoration1 {
+    text-decoration: underline;
+}
+
+.textdecoration2 {
+    text-decoration: line-through;
+}
+
+.textdecoration3 {
+    text-decoration: overline;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
