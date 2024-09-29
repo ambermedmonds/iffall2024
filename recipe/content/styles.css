@@ -1,0 +1,78 @@
+html {
+    font-family: "Nunito", sans-serif; 
+ }
+ 
+ body {
+     margin: 5%;
+     background-color: #eee2d7;
+ }
+ 
+ section { 
+     margin: auto;
+     margin-bottom: 50px;
+ }
+ 
+ .title {
+     font-family: "Cookie", cursive;
+     font-size: 75px;
+     margin: auto;
+     margin-bottom: 10px;
+     color: #4d2508
+ }
+ 
+ .subtitle {
+     font-family: "Nunito", sans-serif; 
+     font-size: 18px;
+     margin: auto;
+ }
+ 
+ h1 {
+     font-family: "Nunito", sans-serif; 
+     font-size: 36px;
+     font-weight: bold;
+     margin: auto;
+     color: #4d2508;
+ }
+ 
+ p {
+     font-family: "Nunito", sans-serif; 
+     font-size: 18px;
+ }
+ 
+ li {
+     font-family: "Nunito", sans-serif; 
+     font-size: 18px;
+ }
+ 
+ .first-image {
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 30px;
+ }
+
+ .grid img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    padding: 0;
+}
+
+.grid li {
+    display: block;
+    width: 24%;
+    text-align: center;
+    margin: 5px;
+}
+
+.sample-imagery {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+ a {
+     color: black
+ }
