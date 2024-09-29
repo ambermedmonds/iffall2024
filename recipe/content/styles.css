@@ -52,7 +52,7 @@ html {
     margin-top: 30px;
  }
 
- .grid img {
+.grid img {
     width: 100%;
     object-fit: cover;
 }
@@ -73,6 +73,6 @@ html {
     flex-wrap: wrap;
 }
  
- a {
+a {
      color: black
- }
+}
