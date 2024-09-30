@@ -1,0 +1,51 @@
+html {
+    font-family: "Nunito", sans-serif; 
+}
+
+body {
+    margin: 5%;
+    background-color: #eee2d7;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #4d2508;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #4d2508;
+    margin-top: 5px;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.grid img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid li {
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
