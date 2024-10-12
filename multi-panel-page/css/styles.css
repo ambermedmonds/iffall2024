@@ -1,0 +1,127 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0 0 16px 0;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0 0 38px 0;
+    line-height: 1;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+p {
+    font-size: 18px;
+    margin: 16px 0 16px 0;
+    line-height: 1.4;
+}
+
+header { 
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 188px;
+    background-image: url('../images/dwts-disco.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+section {
+    margin: 0 auto;
+}
+
+section > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+}
+
+/* FLOATED PHOTO SECTION */
+
+section.floated-photo {
+    background-color: #1A289A;
+    padding-bottom: 40px;
+}
+
+.dwts-cover {
+    float: right;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 44px;
+    margin-bottom: 30px;
+}
+
+/* THUMBNAIL GRID SECTION */
+
+section.thumbnail-grid {
+    background-color: #070A2D;
+    padding-bottom: 24px;
+}
+
+.cast-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
+
+.cast-grid li {
+    display: block;
+    width: 50%;
+    margin-bottom: 23px;;
+}
+
+.cast-grid img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.cast-grid p {
+    margin-top: 6px;
+    padding-right: 22px;
+}
+
+/* SUMMARY SECTION */
+section.summary {
+    background-color: #430992;
+    padding-bottom: 100px;
+}
+
+section.summary p {
+    text-align: center;
+    font-size: 26px;
+    width: 74%;
+    margin: auto;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer p {
+    margin-left: 276px; 
+}
