@@ -103,6 +103,7 @@ section.thumbnail-grid {
 }
 
 /* SUMMARY SECTION */
+
 section.summary {
     background-color: #430992;
     padding-bottom: 100px;
@@ -116,6 +117,7 @@ section.summary p {
 }
 
 /* FOOTER */
+
 footer {
     background-color: black;
     padding-top: 24px;
