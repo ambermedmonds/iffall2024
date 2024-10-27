@@ -1,0 +1,362 @@
+/* IBM BUTTON */
+
+a#btn_ibm {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 94px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #1F67FF;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_ibm:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(to bottom, #0e63fd 0%,#0f8fdd 50%,#0abbbb 100%);
+    transition: all .5s;
+}
+
+a#btn_ibm:hover {
+    color: #fff;
+}
+
+a#btn_ibm:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_ibm span {
+    position: relative;
+    z-index: 10;
+}
+
+/* HARLEY DAVIDSON BUTTON */
+
+a#btn_harley_davidson {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 19px 13px 34px;
+    background-color: #F96501;
+    color: #fff;
+    font-size: 18px;
+    font-family: "franklin-gothic-atf", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a#btn_harley_davidson .label {
+    display: inline-block;
+    transition: transform 1s;
+}
+
+a#btn_harley_davidson:hover .label {
+    transform: translate(-8%, 0);
+}
+
+a#btn_harley_davidson .fa-solid{
+    position: relative;
+    color: transparent;
+    transform: translate(-20%, 0%);
+    transition: transform 1s;
+}
+
+a#btn_harley_davidson:hover .fa-solid {
+    color: white;
+    transform: translate(2%, 0%);
+}
+
+/* LYFT BUTTON */
+
+a#btn_lyft {
+    display: block;
+    width: 170px;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 98px;
+    background-color: #523BE3;
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    transition: all .2s;
+}
+
+a#btn_lyft:hover {
+    background-color: #FF00BF;
+}
+
+/* EXPLODING KITTENS BUTTON */
+
+a#btn_exploding_kittens {
+    display: inline-block;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 98px;
+    padding: 13px 30px 13px 30px;
+    background-color: #E0563A;
+    border: 2px solid black;
+    color: white;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a#btn_exploding_kittens:hover {
+    border: 2px solid white;
+}
+
+a#btn_exploding_kittens .fa-cat {
+    position: relative;
+    right: 7%;
+    color: black;
+    transition: transform 0.5s;
+}
+
+a#btn_exploding_kittens:hover .fa-cat {
+    color: white;
+    transform: rotate(180deg);
+}
+
+a#btn_exploding_kittens .fa-angle-down {
+    position: relative;
+    left: 7%;
+    color: black;
+    transition: transform 0.5s;
+}
+
+a#btn_exploding_kittens:hover .fa-angle-down {
+    color: white;
+    transform: rotate(180deg);
+}
+
+/* HASBRO BUTTON */
+
+a#btn_hasbro {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 9px 30px 9px 40px;
+    background-color: white;
+    border: 2px solid #0098DA;
+    color: black;
+    font-size: 20px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a#btn_hasbro:hover {
+    background-color: #0098DA;
+    box-shadow: 0 2px 8px #002055;
+    color: white;
+}
+
+a#btn_hasbro .fa-solid{
+    position: relative;
+    right: 10%;
+    color: black;
+    transition: transform 0.5s;
+}
+
+a#btn_hasbro:hover .fa-solid {
+    color: white;
+}
+
+/* INSTAGRAM BUTTON */
+
+a#btn_instagram {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background: linear-gradient(to bottom, #ffd601 0%,#ff7a01 25%,#ff0069 50%,#d301c5 75%,#d301c5 100%,#7639fa 100%); 
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_instagram:hover {
+    background: transparent;
+    transform: scale(1.3);
+}
+
+a#btn_instagram:hover .fa-brands {
+    color: #ff0069;
+}
+
+/* NIKE BUTTON */
+
+a#btn_nike {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 96px;
+    padding: 4px 20px;
+    background-color: black;
+    color: white;
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .2s;
+}
+
+a#btn_nike:hover{
+    background-color: transparent;
+    -webkit-text-stroke: 2px black;
+    transform: scale(1.2);
+}
+
+/* MOO BUTTON */
+
+a#btn_moo {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 9px 30px 9px 40px;
+    background-color: #04AB72;
+    border: 2px solid #04AB72;
+    color: white;
+    font-size: 20px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a#btn_moo:hover {
+    background-color: white;
+    color: #04AB72;
+}
+
+a#btn_moo .label {
+    display: inline-block;
+    padding-right: 22px;
+    transition: transform 1s;
+}
+
+a#btn_moo:hover .label {
+    transform: translate(18%, 0);
+}
+
+a#btn_moo .fa-solid{
+    position: relative;
+    bottom: 99%;
+    right: -2%;
+    color: transparent;
+    transition: transform 0.5s;
+}
+
+a#btn_moo:hover .fa-solid{
+    color: #04AB72;
+    transform: translate(0%, 138%);
+}
+
+/* TESLA BUTTON */
+
+a#btn_tesla {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 105px;
+    padding: 4px 24px;
+    background-color: white;
+    color: black;
+    font-family: 'TESLA', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .2s;
+}
+
+a#btn_tesla:hover {
+    color: #E21837;
+    letter-spacing: 4px;
+}
+
+/* FOREFLIGHT BUTTON */
+
+a#btn_foreflight {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 9px 34px 9px 30px;
+    background-color: #2C97DE;
+    border: 2px solid #2C97DE;
+    color: white;
+    font-size: 20px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a#btn_foreflight .label {
+    display: inline-block;
+    transition: transform 1s;
+}
+
+a#btn_foreflight:hover .label {
+    transform: translate(16%, 0);
+}
+
+
+a#btn_foreflight .fa-solid {
+    position: relative;
+    left: 8%;
+    color: white;
+    transform: rotate(270deg);
+    transition: transform 0.5s;
+}
+
+a#btn_foreflight:hover .fa-solid {
+    color: #2C97DE;
+    transform: rotate(255deg) translate(60px, 20px) scale(1.5);
+}
